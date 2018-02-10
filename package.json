@@ -1,6 +1,6 @@
 {
   "name": "wepy-plugin-requireall",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "wepy去中心化模块加载插件",
   "main": "lib/index.js",
   "scripts": {
