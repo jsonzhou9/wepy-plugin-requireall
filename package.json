@@ -1,0 +1,32 @@
+{
+  "name": "wepy-plugin-requireall",
+  "version": "1.0.5",
+  "description": "wepy去中心化模块加载插件",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel --presets es2015,stage-1 src/ --out-dir lib/ --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wepy",
+    "plugin",
+    "module",
+    "require"
+  ],
+  "author": "jsonzhou",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzyss86/wepy-plugin-requireall.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "js-base64": "^2.4.0"
+  }
+}
